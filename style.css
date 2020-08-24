@@ -1,0 +1,105 @@
+
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+   
+  }
+  nav{
+    display:flex;
+    justify-content:space-evenly;
+   }
+  img {
+    height: 300px;    
+  }
+
+/* icion at top of crockpot picture 
+width: 6rem;
+ */
+
+ .Header-Landing{
+ text-align:center;
+ }
+ 
+ .Images-landing {
+    border: solid 2px red;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:5%;
+    }
+
+ .header-login{
+    color: blue;
+    display: flex;
+    align-content: center;
+  }
+.Login-textbox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+ 
+   .heading-login-primary {
+    color:black;
+    /* text-transform: uppercase; */
+    backface-visibility: hidden; 
+    margin-top: 50px; 
+}
+  
+   .heading-login-main {
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    animation: moveInLeft 1s ease-out;
+    margin-bottom: 50px;
+  }
+    
+.btn:link,
+.btn:visited { 
+ text-transform: uppercase;
+ text-decoration: none;
+padding: 15px 40px;
+display:inline-flex;
+border-radius: 100px;
+transition: all .2s;
+}
+.btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0..2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0..2);
+
+}
+.btn-white {
+  background-color: black;
+  color:white;
+
+}
+footer{
+  border: solid 2px red;
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:5%;
+ 
+}
+/* Footer Stuff */
+.download-icon{
+ 
+
+ 
+}
